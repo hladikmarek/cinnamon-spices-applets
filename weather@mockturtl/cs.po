@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 10:42+0000\n"
-"PO-Revision-Date: 2019-05-11 17:35+0200\n"
+"PO-Revision-Date: 2019-05-28 14:30+0200\n"
 "Last-Translator: Fotobob <fotobob1@centrum.cz>\n"
 "Language-Team: partly used outdated mhladik@seznam.cz translation"
 "translation)\n"
@@ -129,7 +129,7 @@ msgstr "J"
 
 #: applet.js:1030 3.6/applet.js:1030 3.8/applet.js:1216
 msgid "SW"
-msgstr "JW"
+msgstr "JZ"
 
 #: applet.js:1030 3.6/applet.js:1030 3.8/applet.js:1216
 msgid "W"
@@ -249,7 +249,7 @@ msgstr "Bouřka s mrholením"
 
 #: 3.8/applet.js:1243
 msgid "Thunderstorm with heavy drizzle"
-msgstr "Bouřka se silným mžením"
+msgstr "Bouřka se silným mrholením"
 
 #: 3.8/applet.js:1245
 msgid "Light intensity drizzle"
@@ -261,7 +261,7 @@ msgstr "Mrholení"
 
 #: 3.8/applet.js:1247
 msgid "Heavy intensity drizzle"
-msgstr "Silné mžení"
+msgstr "Silné mrholení"
 
 #: 3.8/applet.js:1248
 msgid "Light intensity drizzle rain"
@@ -271,11 +271,11 @@ msgstr "Slabé mrholení"
 #, fuzzy
 #| msgid "Drizzle"
 msgid "Drizzle rain"
-msgstr "Mrholení"
+msgstr "Mrholení až déšť"
 
 #: 3.8/applet.js:1250
 msgid "Heavy intensity drizzle rain"
-msgstr "Silně mrholení"
+msgstr "Silné mrholení"
 
 #: 3.8/applet.js:1251
 msgid "Shower rain and drizzle"
@@ -453,7 +453,7 @@ msgstr "Nastavení weather@mockturtl 1.8"
 #. 3.6->settings-schema.json->keybinding->description
 #. 3.8->settings-schema.json->keybinding->description
 msgid "Set the keybinding to call the menu"
-msgstr "Kombinace kláves volající menu"
+msgstr "Kombinace kláves pro nabídku"
 
 #. settings-schema.json->providerSettings->description
 #. 3.6->settings-schema.json->providerSettings->description
@@ -481,9 +481,7 @@ msgstr "Poloha"
 #. settings-schema.json->location->tooltip
 #. 3.6->settings-schema.json->location->tooltip
 #. 3.8->settings-schema.json->location->tooltip
-msgid ""
-"Acceptable inputs: City,CountryCode or Zipcode,CountryCode or Latitude,"
-"Longtitude"
+msgid "Acceptable inputs: City,CountryCode or Zipcode,CountryCode or Latitude,Longtitude"
 msgstr "Akceptováno je: Město,kód země či ZIPkód, nebo zeměpisné koordináty"
 
 #. settings-schema.json->getLocation->description
@@ -682,7 +680,7 @@ msgstr "Počasí"
 
 #. metadata.json->description
 msgid "View your local weather forecast"
-msgstr "Zobrazit lokální předpověď počasí"
+msgstr "Zobrazení lokální předpovědi počasí"
 
 #. 3.6->settings-schema.json->head->description
 msgid "Settings for weather@mockturtl 3.6"
