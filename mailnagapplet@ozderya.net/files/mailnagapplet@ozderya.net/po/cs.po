@@ -1,0 +1,166 @@
+# Czech translation for gnome-shell-extension
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Marek Hladík <mhladik@seznam.cz>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailnag applet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-21 19:27+0800\n"
+"PO-Revision-Date: 2020-03-20 12:40+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: Marek Hladík <mhladik@seznam.cz>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language: cs\n"
+
+#: applet.js:165
+msgid "just now"
+msgstr "právě teď"
+
+#: applet.js:169
+msgid "1 minute ago"
+msgstr "před minutou"
+
+#: applet.js:173
+msgid " minutes ago"
+msgstr " před pár minutami"
+
+#: applet.js:177
+msgid "1 hour ago"
+msgstr "před hodinou"
+
+#: applet.js:181
+msgid " hours ago"
+msgstr " před pár hodinami"
+
+#: applet.js:188
+msgid "yesterday"
+msgstr "včera"
+
+#: applet.js:192
+msgid " days ago"
+msgstr " před pár dny"
+
+#: applet.js:196
+msgid " weeks ago"
+msgstr " před pár týdny"
+
+#: applet.js:281
+msgid "Configure Mailnag"
+msgstr "Nastavení Mailnagu"
+
+#: applet.js:360
+msgid "Mailnag daemon stopped working!"
+msgstr "Démon Mailnag přestal fungovat!"
+
+#: applet.js:364
+msgid "Mailnag daemon isn't running! Do you have it installed?"
+msgstr "Mailnag démon není spuštěn! Máte jej nainstalovaný?"
+
+#: applet.js:593
+#, c-format
+msgid "You have %d new mails!"
+msgstr "Máte %d nových e-mailů!"
+
+#: applet.js:594 applet.js:639
+msgid "Mark All Read"
+msgstr "Označit vše jako přečtené"
+
+#: applet.js:602
+msgid "You have new mail!"
+msgstr "Máte nový e-mail!"
+
+#: applet.js:604
+msgid "Mark Read"
+msgstr "Označit jako přečtené"
+
+#: applet.js:687 applet.js:749
+msgid "No unread mails."
+msgstr "Žádný nepřečtený e-mail."
+
+#: applet.js:725
+msgid "Mailnag daemon is not running!"
+msgstr "Mailnag démon neběží!"
+
+#: applet.js:738
+#, c-format
+msgid "You have a mail from %s!"
+msgstr "Máte e-mail od %s!"
+
+#: applet.js:744
+#, c-format
+msgid "You have %d unread mails!"
+msgstr "Máte %d nepřečtených e-mailů!"
+
+#: applet.js:760
+msgid "Click to see error!"
+msgstr "Klikni pro zobrazení chyby!"
+
+#: applet.js:761
+msgid "Error: "
+msgstr "Chyba: "
+
+#. mailnagapplet@ozderya.net->metadata.json->name
+msgid "Mailnag"
+msgstr "Mailnag"
+
+#. mailnagapplet@ozderya.net->metadata.json->description
+msgid "Mailnag mail notifier applet"
+msgstr "Mailnag, aplet pro oznamování e-mailů"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->notifications->description
+msgid "Show notifications"
+msgstr "Zobrazit oznámení"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->notifications->tooltip
+msgid ""
+"Enables display of mail arrived notifications by applet. Make sure you "
+"disable mailnag notification plugin, otherwise you will have duplicates."
+msgstr ""
+
+#. mailnagapplet@ozderya.net->settings-schema.json->client->description
+msgid "Mail client to launch (or webpage)"
+msgstr "Spustit e-mailového klienta (nebo webovou stránku)"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->client->tooltip
+msgid ""
+"Enter the command to launch your mail client here. You can also enter a web "
+"address that starts with 'http'."
+msgstr ""
+"Zde zadejte příkaz pro spuštění e-mailového klienta, nebo můžete zadat "
+"webovou adresu, která začíná na „http“."
+
+#. mailnagapplet@ozderya.net->settings-
+#. schema.json->launch_client_on_click->description
+msgid "Launch mail client on click"
+msgstr "Při kliknutí spustit e-mailového klienta"
+
+#. mailnagapplet@ozderya.net->settings-
+#. schema.json->launch_client_on_click->tooltip
+msgid "Mail client is launched when clicked on a menu item."
+msgstr "Po kliknutí na položku nabídky se spustí e-mailový klient."
+
+#. mailnagapplet@ozderya.net->settings-schema.json->middle_click->description
+msgid "On middle click:"
+msgstr "Po kliknutí prostředním tlačítkem:"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->middle_click->tooltip
+msgid "What to do when middle clicked on applet icon"
+msgstr "Co dělat, když se klikne prostředním tlačítkem na ikonu appletu"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->middle_click->options
+msgid "Mark all read"
+msgstr "Označit vše jako přečtené"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->middle_click->options
+msgid "Launch mail client"
+msgstr "Spustit e-mailového klienta"
+
+#. mailnagapplet@ozderya.net->settings-schema.json->middle_click->options
+msgid "Do nothing"
+msgstr "Nedělat nic"
